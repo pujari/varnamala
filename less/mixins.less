@@ -1,0 +1,18 @@
+/* Mixins */
+
+.fillColor(@i,@list,@colors) when(@i>0)
+{
+    .fillColor(@i - 1,@list,@colors);
+    @class_: e(extract(@list, @i));
+    @color_: e(extract(@colors,@i));
+    .@{class_}{fill: @color_; color:@color_;}
+}
+
+.strokeColor(@i,@list,@colors) when(@i>0)
+{
+    .strokeColor(@i - 1,@list,@colors);
+    @class_: e(extract(@list, @i));
+    @color_: e(extract(@colors,@i));
+    @stroke_: e(extract(@colors,@i));
+    .stroke@{class_}{stroke: @color_; color:@color_;}
+}
