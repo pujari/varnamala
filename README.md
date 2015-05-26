@@ -1,4 +1,4 @@
-# varnamala
+# Varnamala
 [Sanskrit] (http://en.wikipedia.org/wiki/Sanskrit) alphabet wheel - Varnamala means a "garland of phonemes". Sanskrit is one of the world's most ancient languages and a classical language of India.  
 
 Demo : http://pujari.github.io/varnamala
