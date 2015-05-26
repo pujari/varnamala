@@ -1,0 +1,26 @@
+{
+  "name": "Sanskrit",
+  "description": "Sanskrit",
+  "version": "0.0.1",
+  "homepage": "https://bhaarat.org",
+  "license": "",
+  "private": true,
+  "dependencies": {
+    "jquery": null,
+    "bootstrap": null,
+    "angular": null,
+    "angular-route": null,
+    "angular-loader": null,
+    "angular-resource": null,
+    "angular-sanitize": null,
+    "angular-cookies": null,
+    "angular-mocks": null,
+    "angular-gestures": null,
+    "html5-boilerplate": null,
+    "angular-ui-select" : null,
+    "font-awesome": null,
+    "snap.svg": null,
+    "less": null,
+    "SoundJS":null
+  }
+}

@@ -1,0 +1,87 @@
+@font-face {
+	font-family: Proxima Nova;
+	src: url(../font/proxima-nova-reg.otf) format('opentype');
+}
+
+@font-face {
+	font-family: Proxima Nova;
+	font-weight: bold;
+	src: url(../font/proxima-nova-bold.otf) format('opentype');
+}
+
+body {
+	font-family: Proxima Nova, Helvetica, Arial, sans-serif;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+.svg {
+	display: block;
+	margin: 0 auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.index {
+	font-size: 30px;
+	color: #FFFFFF;
+}
+
+.chakraLabel {
+	font-size: 11px;
+	font-weight: normal;
+	fill: #FFFFFF;
+}
+
+.chakraLine {
+	stroke: #FFFFFF; /* #33CC33; '#123456' */
+	stroke-width: 1;
+	fill: #000;
+	opacity: 0.2;
+}
+
+.chakraInner {
+	stroke: #CFC2F2;
+	stroke-width: 1;
+	fill: blue;
+	opacity: 0.1;
+}
+
+
+.chakraBorder {
+	stroke: #CFC2F2;
+	stroke-width: 1;
+	opacity: 1;
+}
+
+.chakraUpside {
+	font-size: 11px;
+	font-weight: 10;
+}
+
+.centreLabel {
+	font-size: 50px;
+	font-weight: 10;
+	fill: #FFFFFF;
+}
+
+.detailsUpside {
+	font-size: 28px;
+	font-weight: bold;
+	fill: #2ecc40;
+}
+
+.activeLabel {
+	font-size: 13px;
+	font-weight: bold;
+	fill: #CFC2F2;
+}
+
+.inactiveLabel {
+	font-size: 10px;
+	font-weight: normal;
+	fill: #FFFFFF;
+}
