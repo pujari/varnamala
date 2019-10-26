@@ -1,0 +1,31 @@
+{
+  "name": "varnamala",
+  "version": "1.0.0",
+  "description": "[Sanskrit] (http://en.wikipedia.org/wiki/Sanskrit) alphabet wheel - Varnamala means a \"garland of phonemes\". Sanskrit is one of the world's most ancient languages and a classical language of India.",
+  "main": "index.html",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "angular": "^1.7.8",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1",
+    "less": "^3.10.3",
+    "snapsvg": "^0.5.1",
+    "soundjs": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pujari/varnamala.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pujari/varnamala/issues"
+  },
+  "homepage": "https://github.com/pujari/varnamala#readme"
+}
